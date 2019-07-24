@@ -1,5 +1,12 @@
 <?php
 
+/**
+ * 数据库操作与配置中心
+ * Class db
+ * @author wanglong<noobelliot@gmail.com>
+ * @date 2019-7-24
+ */
+
 class db {
 
     private $pdo = null;
@@ -15,12 +22,7 @@ class db {
         return $this->pdo;
     }
 
-    }
-
-class OMDATABASE {
-
 }
 
 
-}
 
